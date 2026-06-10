@@ -9,12 +9,15 @@ order: 1
 ## Journal Articles
 
 {% for p in site.data.publications.journal_articles %}
-- **{{ p.title }}**,  
+- {% if p.doi %}
+      <a href="{{ p.doi }}" target="_blank">
+        **{{ p.title }}**
+      </a>
+    {% else %}
+      **{{ p.title }}**
+    {% endif %}  
   {{ p.journal }} ({{ p.year }})
-  vol.{{ p.volume }} {{ p.pages }}. {% if p.coauthors %}(with {{ p.coauthors }}){% endif %}
-  {% if p.doi %}
-  DOI: {{ p.doi }}
-  {% endif %}
+  vol.{{ p.volume }}({{ p.number }}) {{ p.pages }}. {% if p.coauthors %}(with {{ p.coauthors }}){% endif %}
 {% endfor %}
 
 ## Working Papers

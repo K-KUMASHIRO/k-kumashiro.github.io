@@ -6,7 +6,7 @@ journal_articles:
     volume: 28
     number: 3
     pages: 
-    doi: https://doi.org/10.1111/jpet.70117
+    doi: "https://doi.org/10.1111/jpet.70117"
   - year: 2023
     title: "Pension as a Commitment Device and Borrowing Constraints"
     coauthors:
