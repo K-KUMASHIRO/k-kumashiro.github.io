@@ -1,4 +1,12 @@
 journal_articles:
+  - year: 2026
+    title: "Optimal Funded Pension for Consumers with Heterogeneous Self-Control"
+    coauthors:
+    journal: "Journal of Public Economic Theory"
+    volume: 28
+    number: 3
+    pages: 
+    doi: https://doi.org/10.1111/jpet.70117
   - year: 2023
     title: "Pension as a Commitment Device and Borrowing Constraints"
     coauthors:
@@ -19,9 +27,4 @@ working_papers:
     coauthors: Eiichi Miyagawa
     media: "Discussion Paper, Graduate School of Economics, Kobe University"
     number: "1712"
-  - year: 2015
-    title: "Optimal Funded Pension for Consumers with Heterogeneous Self-Control"
-    coauthors:
-    media: "Working Paper, Graduate School of Economics, Kobe University"
-    number: "314"
   
